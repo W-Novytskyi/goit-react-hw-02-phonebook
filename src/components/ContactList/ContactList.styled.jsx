@@ -1,5 +1,13 @@
 import styled from '@emotion/styled';
 
+export const Container = styled.ul`
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  padding: 0 20px;
+`;
+
 export const Button = styled.button`
   cursor: pointer;
   background-color: #ffffff;

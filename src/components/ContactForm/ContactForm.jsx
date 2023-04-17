@@ -7,8 +7,13 @@ import {
   Input,
   Button,
 } from './ContactForm.styled';
+import PropTypes from 'prop-types';
 
 class ContactForm extends Component {
+  static propTypes = {
+    onAddContact: PropTypes.func.isRequired,
+  };
+
   state = {
     name: '',
     number: '',
